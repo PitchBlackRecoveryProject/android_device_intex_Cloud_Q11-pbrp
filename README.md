@@ -1,10 +1,10 @@
-# Sky Hawk Recovery Project Device Tree
+# Pitch Black Recovery Project Device Tree
 
 
-Link to manifest :  https://github.com/SHRP/platform_manifest_twrp_omni.git
+Link to manifest :  https://github.com/PitchBlackRecoveryProject/manifest_pb/tree/android-6.0
 
-Build Guide :  https://shrp.github.io/#/guide
+Build Guide :  https://pitchblackrecovery.com/docs/how-to-compile/
 
-Telegram Support :  https://t.me/sky_hawk
+Telegram Support :  https://t.me/pbrpcom
 
-Maintainership form : https://forms.gle/ifsMN2hCV3Z5wPFDA
+Maintainership form : https://pitchblackrecovery.com/official/
