@@ -32,11 +32,7 @@ TARGET_CPU_VARIANT := generic
 TARGET_OTA_ASSERT_DEVICE := Cloud_Q11
 
 # Bootloader"
-TARGET_BOOTLOADER_BOARD_NAME := Intex
-
-# These two are for MTK Chipsets only
-BOARD_USES_MTK_HARDWARE := true
-BOARD_HAS_MTK_HARDWARE := true
+TARGET_BOOTLOADER_BOARD_NAME := 1470300415
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -49,7 +45,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Kernel
-TARGET_IS_64_BIT := false                      # true/false: Determine if the device is 64-bit or not
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32S1,32S1
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/zImage-dtb
 BOARD_KERNEL_BASE := 0x80000000
@@ -64,7 +59,6 @@ TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/intex/Cloud_Q11
 TARGET_KERNEL_CONFIG := Cloud_Q11_defconfig
-BOARD_HAS_NO_MISC_PARTITION := true
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6580
@@ -80,17 +74,3 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
-TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
-# Set the Brightness Control File Path below (as per your chip/device)
-TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
-TW_SECONDARY_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
-# Set the Path of Logical Units (LUNs) for Storage below (as per your chip/device)
-#TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/lun%d/file
-#TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun/file
-TW_MAX_BRIGHTNESS := 255
-TW_DEFAULT_BRIGHTNESS := 90                   # Set custom brightness, low is better
-TWRP_INCLUDE_LOGCAT := true
-TW_DEFAULT_LANGUAGE := en                     # Set Default Language 
-TW_EXTRA_LANGUAGES := false
-# Set FSTAB
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
