@@ -19,7 +19,7 @@
 DEVICE_PATH := device/intex/Cloud_Q11
 
 # For building with minimal manifest
-ALLOW_MISSING_DEPENDENCIES := true
+#ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
 TARGET_ARCH := arm
