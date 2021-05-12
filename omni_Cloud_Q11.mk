@@ -36,6 +36,7 @@ PRODUCT_MANUFACTURER := intex
 PRODUCT_RELEASE_NAME := Intex Cloud Q11
 
 # Made PitchBlack Official
+
 PB_OFFICIAL := true
 MAINTAINER := Aryan Karan
 PB_TORCH_MAX_BRIGHTNESS := 127
