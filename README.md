@@ -10,4 +10,4 @@
 <b>Maintainership form</b> : https://pitchblackrecovery.com/official/
 
 
-<b>Clone Command</b> :   git clone https://github.com/aryankaran/PBRP_dt_intex_Cloud_Q11.git -b adroid-9.0 device/intex/Cloud_Q11
+<b>Clone Command</b> :   git clone https://github.com/aryankaran/PBRP_dt_intex_Cloud_Q11.git -b android-9.0 device/intex/Cloud_Q11
