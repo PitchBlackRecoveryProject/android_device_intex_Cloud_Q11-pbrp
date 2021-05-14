@@ -37,8 +37,8 @@ PRODUCT_RELEASE_NAME := Intex Cloud Q11
 
 
 # Made PitchBlack Official
-PB_OFFICIAL := true
-MAINTAINER := Aryan Karan
+#PB_OFFICIAL := true
+#MAINTAINER := Aryan Karan
 PB_TORCH_MAX_BRIGHTNESS := 127
 TW_DEFAULT_BRIGHTNESS := 90
 TWRP_INCLUDE_LOGCAT := true
