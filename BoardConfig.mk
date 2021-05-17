@@ -75,3 +75,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TARGET_RECOVERY_INITRC := $(DEVICE_PATH)/recovery/root/init.rc
+
+# Testing dd for mt6580...
+
+PB_FORCE_DD_FLASH := TRUE
