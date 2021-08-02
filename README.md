@@ -1,16 +1,19 @@
 # Pitch Black Recovery Project Device Tree
 
 
-<b>Link to manifest</b> :  https://github.com/PitchBlackRecoveryProject/manifest_pb/tree/android-9.0
+<b>Link to manifest</b> :  <a href=https://github.com/PitchBlackRecoveryProject/manifest_pb/tree/android-9.0>Here</a>
 
-<b>Build Guide</b> :  https://pitchblackrecovery.com/docs/how-to-compile/
+<b>Build Guide</b> :  <a href="https://pitchblackrecovery.com/docs/how-to-compile/">Here</a>
 
-<b>Telegram Support</b> :  https://t.me/pbrpcom
+<b>Telegram Support</b> :  <a href=https://t.me/pbrpcom>Telegram Channel</a>
 
-<b>Maintainership form</b> : https://pitchblackrecovery.com/official/
+<b>Maintainership form</b> : <a href="https://pitchblackrecovery.com/official/">Form</a>
 
 
-<b>Clone Command</b> :   git clone https://github.com/PitchBlackRecoveryProject/android_device_intex_Cloud_Q11-pbrp.git -b android-9.0 device/intex/Cloud_Q11
+<b>Clone Command</b> :
+```
+git clone https://github.com/PitchBlackRecoveryProject/android_device_intex_Cloud_Q11-pbrp.git -b android-9.0 device/intex/Cloud_Q11
+```
 
   Device configuration for Intex Cloud Q11
  =========================================
